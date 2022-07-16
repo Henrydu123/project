@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            width: 500px;
+            height: 500px;
+            border: 1px solid white;
+            background-color: rgba(0, 0, 0, .5);
+            margin: 200px auto;
+
+
+        }
+
+        body {
+            background: url(./001.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 60px;
+
+        }
+
+        form {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        form input {
+            margin-bottom: 30px;
+        }
+
+        button {
+            width: 100px;
+        }
+
+        .a {
+            width: 100px;
+
+        }
+
+        .dl {
+            color: white;
+            font-size: 10px;
+            text-decoration: none;
+        }
+
+        #sc {
+            width: 50px;
+            /* display: block; */
+            background-color: white;
+            height: 20px;
+            font-size: 16px;
+        }
+
+        .use {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <h1>欢迎注册</h1>
+        <form action="">
+            UsersName <input type="text" name="usename">
+            <p class="use"></p>
+            <br>
+            Password &nbsp;<input type="password" name="pass1">
+            <br>
+            Confirm &nbsp;&nbsp;<input type="password" name="pass2">
+            <br>
+            Verification <input type="text" class="a" name="yz">
+            <a href="#" id="sc"></a>
+            <br>
+            <button>Logon</button>
+            <span><a href="./Login.html" class="dl">已有账号点击登陆</a></span>
+        </form>
+
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/myAjax.js"></script>
+    <script src="./js/tools.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
